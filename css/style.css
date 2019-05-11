@@ -1,0 +1,233 @@
+*{
+  font-family: "微软雅黑", Arial;
+}
+
+@media (max-width: 768px) {
+  .html-style .col-md-6:last-child {
+    margin-top: 10px;
+  }
+  .bootstrap-style .col-md-6:last-child,
+  .app-style .col-md-6:last-child {
+    margin-top: 20px;
+  }
+}
+
+/* 导航栏样式 */
+a.brand-style {
+  font-size: 28px;
+  color: #40d2b1!important;
+  font-weight: bolder;
+}
+
+a.brand-style:hover {
+  color: #000!important;
+}
+
+a.menu-style {
+  font-weight: bolder;
+}
+
+button.menu-button-style {
+  width: 45px;
+  height: 30px;
+  padding: 0;
+  outline: none;
+}
+
+button.menu-button-style:hover {
+  background: rgba(69, 210, 184, 0.4);
+}
+
+span.menu-icon-style {
+  width: 25px;
+  height: 25px;
+}
+
+/* 广告区样式 */
+.content {
+  margin-top: 68px;
+}
+
+.ad-style {
+  background: #0b2e13;
+  color: #fff;
+}
+
+.ad-description-style {
+  text-align: center;
+  padding: 35px 0;
+}
+
+.ad-description-style h1 {
+  font-weight: bolder;
+}
+
+/* 分类区样式 */
+.classify-style {
+  padding: 35px 0;
+  text-align: center;
+}
+
+.classify-item-style a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+  padding: 20px 0 10px 0;
+}
+
+.classify-item-style a:hover {
+  background: #f1f1f1;
+  box-shadow: 10px 10px 4px #ccc;
+}
+
+.classify-item-style h2 {
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.classify-item-style p {
+  font-size: 14px;
+}
+
+/* html区、bootstrap区样式 */
+.html-style {
+  padding: 50px 0;
+  background: #f8f8f8;
+}
+
+.bootstrap-style {
+  padding: 50px 0;
+}
+
+.html-style a,
+.bootstrap-style a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #000;
+}
+
+.html-style h2,
+.bootstrap-style h2 {
+  font-weight: bolder;
+}
+
+.html-style p,
+.bootstrap-style p {
+  font-size: 14px;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span.icon-style {
+  color: #fff;
+  display: inline-block; 
+  width: 30px;
+  height: 30px;
+  background: #41d281;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+/* 其他课程区样式 */
+.course-style {
+  background: #f8f8f8;
+}
+
+.course-style h2 {
+  font-weight: bolder;
+  text-align: center;
+  margin: 40px 0 20px 0
+}
+
+.course {
+  width: 275px;
+  height: 255px;
+  background: #fff;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.course a {
+  margin-top: 21.5px;
+}
+
+/* app下载区样式 */
+.app-style {
+  padding: 50px 0;
+}
+
+.app-style a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #000;
+}
+
+.app-style h2 {
+  font-weight: bolder;
+}
+
+.app-style p {
+  font-size: 14px;
+}
+
+.app-style button {
+  margin-right: 20px;
+}
+
+/* 联系信息区样式 */
+.contact-style {
+  background: url("../img/contact-bg.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+.contact-style::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contact-style h2 {
+  font-weight: bolder;
+}
+
+.contact-style p {
+  font-size: 14px;
+}
+
+.contact-style form,
+.contact-left {
+  padding: 50px 0;
+}
+
+textarea {
+  resize: none;
+}
+
+/* 底部区域样式 */
+footer {
+  font-size: 14px;
+  text-align: center;
+}
+
+footer p {
+  line-height: 37px;
+  margin: 0;
+}
